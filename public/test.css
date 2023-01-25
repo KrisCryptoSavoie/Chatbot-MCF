@@ -35,6 +35,9 @@
 
 /* Palette */
 body {
+    background-image: url('backgroundapp.jpg');
+    background-position: center;
+    background-repeat: repeat;
     --c-black: #1a1a1a;
     --c-white: #e1e1e1;
     --c-grey: #898989;
