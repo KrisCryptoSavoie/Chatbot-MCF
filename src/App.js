@@ -18,8 +18,8 @@ function getEngineId() {
 function App() {
   const [aiName, setAiName] = useState('MCF')
   const [tempAiName, setTempAiName] = useState('MCF')
-  const [attributes, setAttributes] = useState('donne des information')
-  const [tempAttributes, setTempAttributes] = useState('donne des information')
+  const [attributes, setAttributes] = useState('donne des informations')
+  const [tempAttributes, setTempAttributes] = useState('donne des informations')
   const [apiKey, setApiKey] = useState(localStorage.getItem('apikey') || '')
   const [tempApiKey, setTempApiKey] = useState(localStorage.getItem('apikey') || '')
   const { Configuration, OpenAIApi } = require("openai");
