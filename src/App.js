@@ -27,7 +27,7 @@ function App() {
   const [question, setQuestion] = useState('');
   const [conversationHistory, setConversationHistory] = useState([]);
   const [apiKey, setApiKey] = useState('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');
-  const [tempApiKey, setTempApiKey] = useState('');
+  const [tempApiKey, setTempApiKey] = useState('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');
 
   function getPrompt(question) {
     return `${conversation}Human:${question}\n${aiName}:`;
