@@ -20,7 +20,7 @@ function App() {
   const [tempAiName, setTempAiName] = useState('MCF')
   const [attributes, setAttributes] = useState('donne des informations')
   const [tempAttributes, setTempAttributes] = useState('donne des informations')
-
+  const [tempApiKey, setTempApiKey] = useState(localStorage.getItem('apikey') || '');
   const { Configuration, OpenAIApi } = require("openai");
   const [loading, setLoading] = useState(false)
 
