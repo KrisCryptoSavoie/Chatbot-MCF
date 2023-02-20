@@ -11,7 +11,6 @@ export function SettingsSection({
                            saveSettings,
                            resetConversation
                          }) {
-  const apiKey = "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"; 
 
   function toHidden(tmpApiKey) {
 
