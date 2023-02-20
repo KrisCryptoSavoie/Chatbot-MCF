@@ -5,6 +5,7 @@ import { Loader } from './Loader';
 import { SettingsSection } from './chat/SettingsSection';
 import { fillStringLength } from './__helper__/text-helper';
 import { MainContent } from './chat/ChatSection';
+import { useState } from "react";
 
 function defaultConversation(aiName, attributes) {
   return `Vous pouvez discuter avec l Inteligence Artificiel par MCF ${aiName}.
@@ -76,7 +77,7 @@ function App() {
     setAttributes(tempAttributes);
     setApiKey(tempApiKey);
     // save api key to local storage if it is not empty and not already saved
-    if (tempApiKey && tempApiKey !== '' && localStorage.getItem('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') !== temp
+    if (tempApiKey && tempApiKey !== '' && localStorage.getItem('apiKey') !== temp
           {loading ? <>
               Human: <span className={'blue'}>
               {fillStringLength('Human', aiName)}
