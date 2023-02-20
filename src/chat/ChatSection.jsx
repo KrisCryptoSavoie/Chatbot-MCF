@@ -28,9 +28,7 @@ export function MainContent({
 
 
   if (!showConversationDebug) {
-    if (apiKey === '' && !loading) {
-      return <center>
-        <span className={'fuschia'}>Veuillez coller votre clef d'API</span>
+
         <br/>
         <a href={'mailto:contact@messiezconseilformation.fr'} target={'_blank'} className={'blue hover'}>
           Cliquer ici pour en faire la demande
