@@ -53,7 +53,7 @@ function App() {
         top_p: 1.0,
         frequency_penalty: 0.2,
         presence_penalty: 0.0,
-        stop: ['\n']
+        
       }).then((response) => {
         let text = response.data.choices[0].text
         if (text && text.length > 0) {
