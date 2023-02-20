@@ -35,13 +35,6 @@ export function SettingsSection({
                onChange={onChangeAttributes}/>
         <br/>
         <br/>
-        <span className={tmpApiKey !== apiKey || tmpApiKey === '' ? 'fuschia' : 'orange'}>Votre Clef API</span>
-        <input type="text"
-               spellCheck={false}
-               value={toHidden(tmpApiKey)}
-               placeholder={'entrer la clef ici'}
-               onChange={onChangeApiKey}/>
-        <button type="submit" style={{visibility: 'hidden'}}>Save</button>
       </form>
       <a href={'#'} onClick={saveSettings} className={'green hover'}>Save</a>
       <a href={'#'} onClick={resetConversation} className={'fuschia hover'}>Reset</a>
