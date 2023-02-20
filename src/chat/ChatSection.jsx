@@ -7,8 +7,8 @@ export function MainContent({
                           loading,
                           conversationHistory,
                           aiName,
-                          apiKey,
                         }) {
+  const apiKey = "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";
 
   function getBotMessage(msg, index, length) {
     if (msg.text === 'No response') {
