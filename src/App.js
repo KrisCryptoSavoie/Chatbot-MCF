@@ -75,9 +75,7 @@ function App() {
     setConversationHistory([]);
     setAiName(tempAiName);
     setAttributes(tempAttributes);
-    setApiKey(tempApiKey);
-    // save api key to local storage if it is not empty and not already saved
-    if (tempApiKey && tempApiKey !== '' && localStorage.getItem('apiKey') !== temp
+   
           {loading ? <>
               Human: <span className={'blue'}>
               {fillStringLength('Human', aiName)}
