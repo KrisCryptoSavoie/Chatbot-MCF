@@ -9,7 +9,7 @@ export function SettingsSection({
                            onChangeAttributes,
                            
                            
-                           onChangeApiKey,
+        
                            saveSettings,
                            resetConversation
                          }) 
@@ -36,8 +36,7 @@ export function SettingsSection({
         <br/>
         <br/>
       </form>
-      <a href={'#'} onClick={saveSettings} className={'green hover'}>Save</a>
-      <a href={'#'} onClick={resetConversation} className={'fuschia hover'}>Reset</a>
+      
     </div>
   </section>
 }
