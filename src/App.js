@@ -35,7 +35,8 @@ function App() {
 
   const [conversationHistory, setConversationHistory] = useState([])
 
-  const API_KEY = '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';
+ const API_KEY = localStorage.getItem('apikey');
+
 
   function getPrompt(question) {
     return `${conversation}Human:${question}\n
