@@ -7,16 +7,12 @@ export function SettingsSection({
                            attributes,
                            onChangeAiName,
                            onChangeAttributes,
-                           tmpApiKey,
-                           apiKey,
+                           
+                           
                            onChangeApiKey,
                            saveSettings,
                            resetConversation
-                         }) {
-  function toHidden(tmpApiKey) {
-    if (tmpApiKey.length > 6 && tmpApiKey === apiKey) {
-      // get first 5 characters of api key the rest is hidden with •
-      return tmpApiKey.substring(0, 6) + '•'.repeat(tmpApiKey.length - 6)
+                         }) 
     }
   }
 
