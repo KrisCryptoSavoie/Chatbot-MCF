@@ -7,7 +7,6 @@ export function SettingsSection({
                            attributes,
                            onChangeAiName,
                            onChangeAttributes,
-                           tmpApiKey,
                            onChangeApiKey,
                            saveSettings,
                            resetConversation
